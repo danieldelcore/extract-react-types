@@ -14,7 +14,8 @@
   "bolt": {
     "workspaces": [
       "packages/*",
-      "website"
+      "website",
+      "website/loaders/*"
     ]
   },
   "dependencies": {
@@ -38,6 +39,8 @@
     "babel-type-scopes": "^1.1.0",
     "babylon": "^7.0.0-beta.22",
     "babylon-options": "^2.0.1",
+    "bolt": "^0.22.6",
+    "css-loader": "^2.1.1",
     "emotion": "^9.1.1",
     "eslint": "^5.13.0",
     "eslint-config-airbnb": "^17.1.0",
@@ -48,10 +51,15 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "jest-in-case": "^1.0.2",
+    "lz-string": "^1.4.4",
+    "react-codemirror": "^1.0.0",
+    "react-markdown": "^4.0.6",
     "react-markings": "^1.2.0",
+    "react-router-dom": "^5.0.0",
     "strip-indent": "^2.0.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
     "babel-cli": "^6.26.0",
@@ -71,10 +79,12 @@
     "jest": "^23.6.0",
     "jest-in-case": "^1.0.2",
     "jsdom": "^11.7.0",
+    "null-loader": "^0.1.1",
     "prettier": "^1.13.7",
     "react": "^16.3.1",
     "react-addons-test-utils": "^15.6.2",
     "react-dom": "^16.3.1",
+    "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1"
